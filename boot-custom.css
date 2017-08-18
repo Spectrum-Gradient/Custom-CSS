@@ -1121,7 +1121,55 @@ figure {
 }
 img {
   vertical-align: middle;
+  width: 100%;
 }
+.image-text{
+  position: relative;
+}
+.image-text img{
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+.image-text-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-text-left{
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translate(0,-50%);
+}
+.image-text-right{
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translate(0, -50%);
+}
+.image-text-left-top{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.image-text-right-top{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+.image-text-left-bottom{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.image-text-right-bottom{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
