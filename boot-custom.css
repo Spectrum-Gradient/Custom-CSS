@@ -1242,6 +1242,12 @@ hr {
 .sidebar-menu li:hover{
   background: #636b6f;
 }
+.sidebar-menu li a i{
+  margin-right: 7px;
+}
+.top-half-margin{
+  margin-top: 12.5%;
+}
 [role="button"] {
   cursor: pointer;
 }
